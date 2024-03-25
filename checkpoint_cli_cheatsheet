@@ -1,0 +1,32 @@
+### Checkpoint cli cheat sheet ###
+
+## grab connections table
+fw tab -t connections -f -u
+
+## Fast accel
+fwaccel stats -s (show fas accel stats)
+fw ctl fast_accel enable (enable fast accel feature)
+fw ctl fast_accel show_state (show fast accel state)
+fw ctl fast_accel add src dst port protocol_num (add fast accel rule)
+
+## Show top connections
+top_conns
+
+## cpinfo
+cpinfo -y all
+cpinfo -d -D -z -o /var/log/$(uname -n)
+
+## Run healthcheck
+hcp -r all
+
+## heavy connections
+fw ctl multik print_heavy_conn (show heavy connections)
+
+## HA status - shows cluster status
+cphaprob stat
+
+## cpview
+cpview
+
+## Show hardware info
+show asset all
