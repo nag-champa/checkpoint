@@ -30,3 +30,6 @@ cpview
 
 ## Show hardware info
 show asset all
+
+## Enable RAD stats
+rad_admin stats on <urlf|app1|malware|av>
