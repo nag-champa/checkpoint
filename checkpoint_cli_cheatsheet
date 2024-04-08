@@ -33,3 +33,10 @@ show asset all
 
 ## Enable RAD stats
 rad_admin stats on <urlf|app1|malware|av>
+
+## clusterxl 
+clusterXL_admin {down | up}
+clusterXL_admin up -p
+set cluster member admin {down | up} permanent
+
+
