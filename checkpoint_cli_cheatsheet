@@ -8,6 +8,7 @@ fwaccel stats -s (show fas accel stats)
 fw ctl fast_accel enable (enable fast accel feature)
 fw ctl fast_accel show_state (show fast accel state)
 fw ctl fast_accel add src dst port protocol_num (add fast accel rule)
+fw ctl fast_accel show_table (show bypass table)
 
 ## Show top connections
 top_conns
