@@ -40,4 +40,11 @@ clusterXL_admin {down | up}
 clusterXL_admin up -p
 set cluster member admin {down | up} permanent
 
+## cpview
+cpview -t (to enter history mode)
+## Reference - https://support.checkpoint.com/results/sk/sk101878
+  In CPview, press the "t" key and and enter the applicable date and time.
+  The format is:
+  [Jan...Dec] [01...31] [4-digit Year] [hh:mm:ss]
+
 
